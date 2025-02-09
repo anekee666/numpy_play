@@ -23,11 +23,12 @@ git fetch <remote> <branch>
 git checkout origin/master
 git switch <branch>
 ====================================================
+git branch <name>
 
 git merge
 git status
 git diff
-git branch <name>
+
 git branch -m new_name
 git branch -d branch_name.
 git branch -D branch_name
