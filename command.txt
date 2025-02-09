@@ -9,25 +9,24 @@ git status
 git clone <URL>
 
 ==================================================
-
-
 git add <file>
 git commit -m "message"
-git push
-git merge
-git pull
-git fetch <remote> <branch>
-git status
 git log
-git diff
 git remote -v
 git remote add <name/origin> <url>
 git remote rename <old> <new>
 git remote remove <name>
+git push
 git push -u origin main/master
+git pull
+git fetch <remote> <branch>
 git checkout origin/master
 git switch <branch>
+====================================================
 
+git merge
+git status
+git diff
 git branch <name>
 git branch -m new_name
 git branch -d branch_name.
