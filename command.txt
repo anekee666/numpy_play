@@ -21,9 +21,10 @@ git push -u origin main/master
 git pull
 git fetch <remote> <branch>
 git checkout origin/master
-git switch <branch>
 ====================================================
 git branch <name>
+git switch <branch>
+
 
 git merge
 git status
