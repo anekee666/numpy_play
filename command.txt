@@ -1,0 +1,48 @@
+git config user.name
+git config user.email
+
+git config --global user.name "xxxx"
+git config --global user.email "xxxx"
+
+git init
+git status
+git clone <URL>
+
+==================================================
+
+
+git add <file>
+git commit -m "message"
+git push
+git merge
+git pull
+git fetch <remote> <branch>
+git status
+git log
+git diff
+git remote -v
+git remote add <name/origin> <url>
+git remote rename <old> <new>
+git remote remove <name>
+git push -u origin main/master
+git checkout origin/master
+git switch <branch>
+
+git branch <name>
+git branch -m new_name
+git branch -d branch_name.
+git branch -D branch_name
+git merge branch_name
+git diff
+git diff master <branch_mame>
+git log --oneline
+git checkout ######
+git restore file_name 
+git restore --source HEAD~N file_name
+git restore --staged file_name
+git reset ######
+git reset ###### --hard
+git revert ######
+git stash
+git stash pop
+git stash apply
