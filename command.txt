@@ -1,0 +1,53 @@
+git config user.name
+git config user.email
+
+git config --global user.name "xxxx"
+git config --global user.email "xxxx"
+
+git init
+git status
+git clone <URL>
+==================================================
+git add <file>
+git commit -m "message"
+git log
+git remote -v
+git remote add <name/origin> <url>
+git remote rename <old> <new>
+git remote remove <name>
+git push
+git push -u origin main/master
+git pull
+git fetch <remote> <branch>
+git checkout origin/master
+====================================================
+git branch <name>
+git branch -m new_name
+git branch -d branch_name.
+git branch -D branch_name
+git switch <branch>
+git merge branch_name
+git diff
+git diff master <branch_mame>
+====================================================
+git log --oneline
+git checkout ######
+git switch --track origin/<branch_mame>
+
+Restore a single file to its last committed state:
+    git restore file_name
+Restore a file (file_name) to the state it was in N commits ago (HEAD~N), without modifying the commit history:  
+    git restore --source HEAD~N file_name
+Restore a file from staging (unstage it but keep changes):
+    git restore --staged file_name
+
+Resets the branch pointer to a previous commit, discarding or keeping changes depending on the mode:
+    git reset ######
+    git reset ###### --hard
+
+Reverts a specific commit without modifying history:    
+    git revert ######
+
+git stash
+git stash pop
+git stash apply
