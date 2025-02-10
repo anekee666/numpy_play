@@ -16,3 +16,4 @@ array[0:100,0:100,0]=0
 array[0:100,0:100,2]=0
 print(array[:,:,0].shape)
 numpy_to_image(array,"2.jpg")
+buggy
