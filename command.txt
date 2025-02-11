@@ -47,7 +47,7 @@ Resets the branch pointer to a previous commit, discarding or keeping changes de
 
 Reverts a specific commit without modifying history:    
     git revert ######
-
+===============================================================
 git stash
-git stash pop
-git stash apply
+git stash pop (no longer need the stash after applying it)
+git stash apply (keep the stash for future use)
