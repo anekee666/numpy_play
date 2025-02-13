@@ -1,1 +1,2 @@
 https://lazyprogrammer.me/numpy/
+https://colab.research.google.com/drive/1VdLyfnop7Tt4wx4BmS6WHSSQg3n5wXrX
