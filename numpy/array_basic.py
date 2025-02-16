@@ -10,3 +10,7 @@ print(np.sqrt(A))
 print(np.log(A))
 print(np.exp(A))
 print(np.tanh(A))
+# by the way, this works with Numpy too
+A = np.arange(10)
+print(A)
+print(A[A % 2 == 0])
