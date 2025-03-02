@@ -2,3 +2,4 @@ https://lazyprogrammer.me/numpy/
 https://colab.research.google.com/drive/1VdLyfnop7Tt4wx4BmS6WHSSQg3n5wXrX
 https://colab.research.google.com/drive/1XPIvVx5lJIzJNJYBNsjX_WYBbtnfDG58
 https://colab.research.google.com/drive/1tf7dD2UuGo5Fx5qc16pcF05vZMOKefbE
+https://github.com/lazyprogrammer/machine_learning_examples/tree/master/numpy_class
